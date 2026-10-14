@@ -1,0 +1,18 @@
+name: prerna_portfolio
+description: Prerna Patil's pink, animated Flutter portfolio.
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/prerna.jpg
